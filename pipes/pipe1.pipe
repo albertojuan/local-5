@@ -3,7 +3,3 @@ TOKEN "scheduled_copy_t_90a7bfbfa03a4fec99da17fecaef03f6" READ
 NODE pipe1_node
 SQL >
     SELECT * FROM ds1
-
-TYPE COPY
-TARGET_DATASOURCE copy_ds
-COPY_SCHEDULE 1 * * * *
